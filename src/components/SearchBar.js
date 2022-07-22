@@ -1,8 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faMagnifyGlass,
-  faMagnifyingGlass
-} from "@fortawesome/free-solid-svg-icons";
+import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 
 const SearchBar = ({ posts, setSearchResults }) => {
   const handleSubmit = (e) => e.preventDefault();

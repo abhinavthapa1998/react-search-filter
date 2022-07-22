@@ -1,6 +1,6 @@
 const Post = ({ post }) => {
   return (
-    <article>
+    <article className="postCard">
       <h2>{post.title}</h2>
       <p>{post.body}</p>
       <p>Post ID: {post.id}</p>
