@@ -1,6 +1,7 @@
 import "./styles.css";
 import { getPosts } from "./api/axios";
 import { useState, useEffect } from "react";
+import SearchBar from "./components/SearchBar";
 export default function App() {
   const [posts, setPosts] = useState([]);
   const [searchResults, setSearchResults] = useState([]);
@@ -14,10 +15,10 @@ export default function App() {
         setSearchResults(json);
       });
   }, []);
+
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <SearchBar posts={posts} setSearchResults={setSearchResults} />
     </div>
   );
 }
