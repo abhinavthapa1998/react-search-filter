@@ -1,2 +1,2 @@
 # react-search-filter
-Created with CodeSandbox
+Basic Search Bar ( No Debouncing/Throttling )
