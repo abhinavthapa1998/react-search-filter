@@ -1,2 +1,2 @@
-# react-search-filter
+# React Search Filter
 Basic Search Bar ( No Debouncing/Throttling )
